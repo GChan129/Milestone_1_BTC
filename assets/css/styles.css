@@ -181,6 +181,10 @@ body {
 
 /*---------------------------PAGES --------------------*/
 
+.homepage-link-color {
+    background-color: #F1ECE9;
+}
+
 .full-width {
     width:100%;
 }
@@ -188,6 +192,8 @@ body {
 .half-width {
     width: 50%;
 }
+
+
 
 /*---------------------------- RESPONSIVE YOUTUBE --------------*/
 
