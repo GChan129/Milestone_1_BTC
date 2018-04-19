@@ -1,0 +1,208 @@
+.remove-a-styles {
+    text-decoration: none;
+    color: #212121;
+}
+
+.remove-a-styles:hover {
+    text-decoration: none;
+    color: #575757;
+}
+
+body {
+    font-family: 'Pragati+Narrow', sans-serif;
+}
+
+/*---------------------- NAV BAR -------*/
+
+
+.navbar-bar {
+    background-color: #C8C9C7;
+    height: 50px;
+}
+
+
+.inline {
+    display:inline-block;
+}
+
+.vert-align-home-head {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    height: 30%;
+    width: 80%;
+    margin: -15% 0 0 -25%;
+}
+
+.logo-margins {
+    margin: -5% 0 0 0;
+}
+
+.logo-text {
+    font-family:'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 8vw;
+    margin: 10px 0 0 0;
+}
+
+.dropdown {
+    font-size: 24pt;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #F8F9FF;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 5px;
+    z-index: 1;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 2.5% 10%;
+}
+
+.menu-items {
+    font-size: 6vw;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*------------------------------- HEADER -------*/
+
+
+.home-header {
+    background-color: #d9d9d9;
+    height: 150px;
+    text-align: center;
+    position: relative;
+}
+
+/*---------------------- HOME PAGE BODY LINKS -------*/
+
+
+.home-links{
+    text-align:center;
+    padding: 15px 0 15px 0;
+}
+
+.link-header{
+    text-align:center;
+    padding-top: 15px;
+}
+
+.color-transition {
+    transition: background-color 0.5s ease;
+}
+
+.link-btc101 {
+    background-color: #ffff4c;
+}
+
+.link-btc101-trans:hover {
+    background-color: #EBDA41;
+}
+
+.link-blockchain {
+    background-color: #7ec0ee;
+}
+
+.link-blockchain:hover {
+    background-color: #49a9ee;
+}
+
+.link-crypto {
+    background-color: #4ec318;
+}
+
+.link-crypto:hover {
+    background-color: #42ac11;
+}
+
+.link-decent {
+    background-color: #ff3232;
+}
+
+.link-decent:hover {
+    background-color: #ef1f1f;
+}
+
+.home-img1 {
+   background-image: url("../images/img1.jpg");
+
+}
+
+.links-icon{
+    font-size: 30pt;
+}
+
+
+.links-icon2{
+    font-size: 60pt;
+}
+
+
+.home-link {
+    background-color: #FFE5B4;
+}
+
+/*---------------------------- FOOTER --------------*/
+
+.footer-styles {
+    background-color: #b8b8b8;
+}
+
+.footer-link {
+    width: 25%;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.footer-socialmedia-icons {
+    float: left;
+    font-size: 30pt;
+}
+
+.em-padding {
+    padding:.5em .1em .5em 0em;
+}
+
+.no-hover:hover {
+    transition: 0;
+}
+
+
+/*---------------------------PAGES --------------------*/
+
+.full-width {
+    width:100%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+/*---------------------------- RESPONSIVE YOUTUBE --------------*/
+
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
