@@ -160,9 +160,10 @@ body {
 }
 
 .footer-link {
-    width: 25%;
+    display: inline-block;
     text-align: center;
     padding-top: 1em;
+    flex-basis: auto;
 }
 
 .footer-socialmedia-icons {
