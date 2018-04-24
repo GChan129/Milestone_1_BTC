@@ -27,11 +27,11 @@ body {
 
 .vert-align-home-head {
     position: absolute;
-    top: 50%;
-    left: 35%;
-    height: 30%;
+    top: 20%;
+    left: 10%;
+    height: 50%;
     width: 80%;
-    margin: -15% 0 0 -25%;
+    margin: 0% 0 0% 0%;
 }
 
 .logo-margins {
@@ -87,6 +87,9 @@ body {
 
 /*---------------------- HOME PAGE BODY LINKS -------*/
 
+.mid-screen-vis {
+    display: none;
+}
 
 .home-links{
     text-align:center;
@@ -102,35 +105,35 @@ body {
     transition: background-color 0.5s ease;
 }
 
-.link-btc101 {
+.btc101-color {
     background-color: #ffff4c;
 }
 
-.link-btc101-trans:hover {
+.btc101-color:hover {
     background-color: #EBDA41;
 }
 
-.link-blockchain {
+.blockchain-color {
     background-color: #7ec0ee;
 }
 
-.link-blockchain:hover {
+.blockchain-color:hover {
     background-color: #49a9ee;
 }
 
-.link-crypto {
+.crypto-color {
     background-color: #4ec318;
 }
 
-.link-crypto:hover {
+.crypto-color:hover {
     background-color: #42ac11;
 }
 
-.link-decent {
+.decent-color {
     background-color: #ff3232;
 }
 
-.link-decent:hover {
+.decent-color:hover {
     background-color: #ef1f1f;
 }
 
@@ -155,14 +158,14 @@ body {
 
 /*---------------------------- FOOTER --------------*/
 
-.footer-styles {
+.footer-bg-color {
     background-color: #b8b8b8;
 }
 
 .footer-link {
     display: inline-block;
     text-align: center;
-    padding-top: 1em;
+    padding-top: .5em;
     flex-basis: auto;
 }
 
@@ -212,4 +215,56 @@ body {
     left: 0; 
     width: 100%; 
     height: 100%; 
+}
+
+/*---------------------------- MEDIA QUERIES --------------*/
+
+@media only screen and (min-width: 576px) {
+    body {
+        background-color: lightblue;
+    }
+    
+    .home-links {
+        width: 50%;
+    }
+    
+    .small-screen-vis {
+        display: none;
+    }
+    
+    .mid-screen-vis {
+    display: block;
+    }
+    
+    .logo-text {
+    font-size: 6vw;
+    margin: 0 0 0 0;
+    }
+    
+    .med-font-size {
+        font-size: 1.5em;
+    }
+    
+    
+    .navbar-bar {
+    height: 70px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: pink;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: purple;
+    }
 }
