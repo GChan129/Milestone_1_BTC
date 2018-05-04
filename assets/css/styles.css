@@ -78,8 +78,12 @@ body {
 /*------------------------------- HEADER -------*/
 
 
-.home-header {
+.home-header-color {
     background-color: #d9d9d9;
+ 
+}
+
+.home-header-align {
     height: 150px;
     text-align: center;
     position: relative;
@@ -92,6 +96,7 @@ body {
 .logo-align {
     vertical-align: middle;
 }
+
 
 /*---------------------- HOME PAGE BODY LINKS -------*/
 
@@ -232,6 +237,7 @@ body {
         background-color: lightblue;
     }
     
+
     .home-links {
         width: 50%;
     }
@@ -253,7 +259,6 @@ body {
         font-size: 1.5em;
     }
     
-    
     .navbar-bar {
     height: 70px;
     }
@@ -262,6 +267,23 @@ body {
 @media only screen and (min-width: 768px) {
     body {
         background-color: pink;
+    }
+    
+    .vert-align-home-head {
+        position: relative;
+        top: 20%;
+        left: 10%;
+        height: 50%;
+        width: 80%;
+        margin: 0% 0 0% 0%;
+    }
+    
+    .header-text {
+        font:3rem;
+    }
+    
+    .mid-screen-vis {
+    display: block;
     }
 }
 
