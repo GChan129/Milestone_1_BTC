@@ -21,7 +21,7 @@ body {
 }
 
 
-.inline {
+.inline-block {
     display:inline-block;
 }
 
@@ -35,18 +35,18 @@ body {
 }
 
 .logo-margins {
-    margin: -5% 0 0 0;
+    margin: 0 0 0 0;
 }
 
 .logo-text {
     font-family:'Oswald', sans-serif;
     font-weight: 400;
-    font-size: 8vw;
-    margin: 10px 0 0 0;
+    font-size: 7vw;
+    margin: 0 0 0 0;
 }
 
 .dropdown {
-    font-size: 24pt;
+    font-size: 26pt;
     position: relative;
 }
 
@@ -86,7 +86,11 @@ body {
 }
 
 .vert-align {
-    vertical-align: text-top;
+    vertical-align: middle;
+}
+
+.logo-align {
+    vertical-align: middle;
 }
 
 /*---------------------- HOME PAGE BODY LINKS -------*/
