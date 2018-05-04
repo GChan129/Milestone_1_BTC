@@ -85,6 +85,10 @@ body {
     position: relative;
 }
 
+.vert-align {
+    vertical-align: text-top;
+}
+
 /*---------------------- HOME PAGE BODY LINKS -------*/
 
 .mid-screen-vis {
