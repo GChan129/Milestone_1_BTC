@@ -295,6 +295,14 @@ body {
         height: 80px;
     }
     
+    .dropdown-content {
+        min-width: 220px;
+    }
+    
+    .menu-items {
+    font-size: 3vw;
+    }
+    
     .vert-align-home-head {
         position: relative;
         top: 20%;
@@ -328,6 +336,14 @@ body {
     .mid-screen-vis {
     display: block;
     }
+    
+    .whitepaperimg-styles {
+    min-width: 20%;
+    min-height: 20%;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -335,6 +351,9 @@ body {
         background-color: black;
     }
     
+    .menu-items {
+    font-size: 3.5vw;
+    }
     
 }
 
