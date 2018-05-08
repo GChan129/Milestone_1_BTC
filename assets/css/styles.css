@@ -287,6 +287,14 @@ body {
         font-size: 4rem;
     }
     
+    .page-links-text-size {
+        font-size: 3rem;
+    }
+    
+    .page-links-text-size2 {
+        font-size: 2.5rem;
+    }
+    
     .header-text {
         font:3rem;
     }
