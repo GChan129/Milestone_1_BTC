@@ -95,6 +95,7 @@ body {
 
 .logo-align {
     vertical-align: middle;
+    text-align: center;
 }
 
 
@@ -269,6 +270,10 @@ body {
         background-color: pink;
     }
     
+    .navbar-bar{
+        height: 80px;
+    }
+    
     .vert-align-home-head {
         position: relative;
         top: 20%;
@@ -278,8 +283,17 @@ body {
         margin: 0% 0 0% 0%;
     }
     
+    .page-header-text-size {
+        font-size: 4rem;
+    }
+    
     .header-text {
         font:3rem;
+    }
+
+    
+    .text-font-size {
+        font-size: 1.5rem;
     }
     
     .mid-screen-vis {
